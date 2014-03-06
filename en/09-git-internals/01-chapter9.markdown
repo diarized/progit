@@ -140,6 +140,7 @@ You can also verify that this is a tree object:
 
 You’ll now create a new tree with the second version of test.txt and a new file as well:
 
+	$ echo 'version 2' > test.txt
 	$ echo 'new file' > new.txt
 	$ git update-index test.txt
 	$ git update-index --add new.txt
